@@ -8,8 +8,8 @@
   "condition": {
     "Description": "Condition (integer)",
     "Levels": {
-      "x1": "Unlearnable",
-      "x2": "Learnable"
+      "1": "Unlearnable",
+      "2": "Learnable"
     }
   },
   "pWin1": {
@@ -21,22 +21,22 @@
   "optimalResponse": {
     "Description": "Optimal door",
     "Levels": {
-      "x1": "Left",
-      "x2": "Right"
+      "1": "Left",
+      "2": "Right"
     }
   },
   "preStimulusDelay": {
     "Description": "Delay after fixation cross but before doors appear (float)",
     "units": "seconds"
   },
-  "responsed": {
+  "responded": {
     "Description": "Whether the participant responded (boolean)"
   },
   "response": {
     "Description": "Response side",
     "Level": {
-      "x1": "Left",
-      "x2": "Right"
+      "1": "Left",
+      "2": "Right"
     }
   },
   "rt": {
@@ -49,8 +49,8 @@
   "outcome": {
     "Description": "Feedback type",
     "Level": {
-      "x1": "Win",
-      "x2": "Lose"
+      "1": "Win",
+      "2": "Lose"
     }
   },
   "optimal": {
