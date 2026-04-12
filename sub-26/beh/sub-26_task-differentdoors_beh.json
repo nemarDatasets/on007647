@@ -1,0 +1,59 @@
+{
+  "blockNum": {
+    "Description": "Block number (integer)"
+  },
+  "trialNum": {
+    "Description": "Trial number (integer)"
+  },
+  "condition": {
+    "Description": "Condition (integer)",
+    "Levels": {
+      "x1": "Unlearnable",
+      "x2": "Learnable"
+    }
+  },
+  "pWin1": {
+    "Description": "Win probability of left door (float)"
+  },
+  "pWin2": {
+    "Description": "Win probability of right door (float)"
+  },
+  "optimalResponse": {
+    "Description": "Optimal door",
+    "Levels": {
+      "x1": "Left",
+      "x2": "Right"
+    }
+  },
+  "preStimulusDelay": {
+    "Description": "Delay after fixation cross but before doors appear (float)",
+    "units": "seconds"
+  },
+  "responsed": {
+    "Description": "Whether the participant responded (boolean)"
+  },
+  "response": {
+    "Description": "Response side",
+    "Level": {
+      "x1": "Left",
+      "x2": "Right"
+    }
+  },
+  "rt": {
+    "Description": "Response time (float)",
+    "units": "seconds"
+  },
+  "preFeedbackDelay": {
+    "Description": "Delay after response but before feedback onset (float)"
+  },
+  "outcome": {
+    "Description": "Feedback type",
+    "Level": {
+      "x1": "Win",
+      "x2": "Lose"
+    }
+  },
+  "optimal": {
+    "Description": "Whether the response was optimal (boolean)"
+  }
+}
