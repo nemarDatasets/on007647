@@ -1,0 +1,33 @@
+{
+  "blockNum": {
+    "Description": "Block number (integer)"
+  },
+  "condNum": {
+    "Description": "Condition number (integer)",
+    "Levels": {
+      "x1": "Which door was better?",
+      "x2": "The game was fun.",
+      "x3": "I felt motivated to play the game.",
+      "x4": "I did well in the game."
+    }
+  },
+  "condName": {
+    "Description": "Condition name (string)"
+  },
+  "statementNum": {
+    "Description": "Statement number"
+  },
+  "statement": {
+    "Description": "Survey statement (string)"
+  },
+  "RT": {
+    "Description": "Response time (float)",
+    "units": "seconds"
+  },
+  "responseNum": {
+    "Description": "Keyboard response number (integer)"
+  },
+  "response": {
+    "Description": "Response description (string)"
+  }
+}
