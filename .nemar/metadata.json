@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007647",
+  "source": "openneuro",
+  "source_id": "ds007647",
+  "title": "Different Doors",
+  "authors": {
+    "Abigail Oloriz": {},
+    "Cameron D. Hassall": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007647.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
