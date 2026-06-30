@@ -1,30 +1,77 @@
 {
   "version": "2.0",
-  "dataset_id": "on007647",
-  "source": "openneuro",
-  "source_id": "ds007647",
+  "pipeline_stage": "validated",
   "title": "Different Doors",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Abigail Oloriz": {},
     "Cameron D. Hassall": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007647.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007647",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007647",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007647",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".md",
+    ".mexw64",
+    ".png",
+    ".pptx",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises EEG recordings from 40 participants performing a two-door decision-making task with probabilistic feedback. Participants selected between doors in blocks of 20 trials, receiving monetary gains or losses. The experiment manipulated learning conditions by contrasting learnable blocks (60% vs. 10% win probabilities) with unlearnable blocks (random outcomes matched to learnable block statistics). Post-block surveys assessed subjective perceptions of door quality, enjoyment, motivation, and performance.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "feedback processing"
+    },
+    {
+      "term": "probabilistic learning"
+    },
+    {
+      "term": "monetary reward"
+    }
+  ],
+  "source_hash": "af5c795b33031f61237d8fba4fbe6eb083766af0aaddd4bb7c977674a4e4f30f"
 }
