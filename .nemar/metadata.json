@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Different Doors",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 40 participants performing a two-door decision-making task with monetary feedback. Participants completed 20 blocks of 20 trials each, alternating between learnable blocks where one door had a 60% win probability and the other had a 10% win probability, and unlearnable blocks where outcomes were randomized. Post-block surveys assessed subjective perceptions of door quality, enjoyment, motivation, and performance. The dataset enables investigation of neural correlates of learning, decision-making, and feedback processing under conditions of varying environmental predictability.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 40 participants performing a two-door decision-making task with monetary feedback. Participants completed 20 blocks of 20 trials each, alternating between learnable blocks where one door had a 60% win probability and the other a 10% win probability, and unlearnable blocks where outcomes were randomized. Post-block surveys assessed subjective perceptions of door quality, enjoyment, motivation, and performance. The dataset enables investigation of neural correlates of learning, decision-making, and feedback processing under conditions of varying environmental predictability.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,28 +23,31 @@
       "term": "feedback processing"
     },
     {
-      "term": "reward"
+      "term": "reward processing"
+    },
+    {
+      "term": "monetary reward"
+    },
+    {
+      "term": "cognitive control"
     },
     {
       "term": "learning"
     },
     {
-      "term": "bandit task"
-    },
-    {
-      "term": "two-armed bandit"
+      "term": "choice task"
     },
     {
       "term": "probabilistic learning"
     },
     {
-      "term": "exploration-exploitation"
-    },
-    {
-      "term": "monetary feedback"
-    },
-    {
       "term": "probabilistic reasoning"
+    },
+    {
+      "term": "two-alternative forced choice"
+    },
+    {
+      "term": "behavioral data"
     }
   ],
   "related_identifiers": [
@@ -92,6 +95,6 @@
     ".vmrk",
     ".yml"
   ],
-  "methods_description": "EEG data were collected while participants performed a two-door choice task with monetary feedback. Blocks alternated between learnable (one door: 60% win rate; other door: 10% win rate) and unlearnable (randomized outcomes matched to learnable block distributions) conditions. Each of 20 blocks contained 20 trials followed by a brief survey assessing perceived door quality, enjoyment, motivation, and performance.",
+  "methods_description": "EEG data were collected while participants performed a two-door choice task with monetary feedback. Blocks alternated between learnable (60% vs 10% win probabilities) and unlearnable (randomized outcomes) conditions. Each block contained 20 trials followed by a brief survey assessing subjective impressions of door quality, enjoyment, motivation, and performance.",
   "source_hash": "e4f71006fa6fcef88d99586f9172fb41c9bbd7e0f110bc06f0e04536f6ea1275"
 }
