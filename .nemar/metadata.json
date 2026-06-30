@@ -1,58 +1,14 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Different Doors",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 40 participants performing a two-door decision-making task with monetary feedback. Participants completed 20 blocks of 20 trials each, alternating between learnable blocks where one door had a 60% win probability and the other had a 10% win probability, and unlearnable blocks where outcomes were randomized. Post-block surveys assessed subjective perceptions of door quality, enjoyment, motivation, and performance. The dataset enables investigation of neural correlates of learning, decision-making, and feedback processing under conditions of varying environmental predictability.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Abigail Oloriz": {},
     "Cameron D. Hassall": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007647.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007647",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007647",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds007647",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "beh",
-    "eeg"
-  ],
-  "resource_type_specific": "Neuroimaging Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".m",
-    ".md",
-    ".mexw64",
-    ".png",
-    ".pptx",
-    ".tsv",
-    ".txt",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset comprises EEG recordings from 40 participants performing a two-door decision-making task with probabilistic feedback. Participants selected between doors in blocks of 20 trials, receiving monetary gains or losses. The experiment manipulated learning conditions by contrasting learnable blocks (60% vs. 10% win probabilities) with unlearnable blocks (random outcomes matched to learnable block statistics). Post-block surveys assessed subjective perceptions of door quality, enjoyment, motivation, and performance.",
   "keywords": [
     {
       "term": "EEG"
@@ -67,11 +23,75 @@
       "term": "feedback processing"
     },
     {
+      "term": "reward"
+    },
+    {
+      "term": "learning"
+    },
+    {
+      "term": "bandit task"
+    },
+    {
+      "term": "two-armed bandit"
+    },
+    {
       "term": "probabilistic learning"
     },
     {
-      "term": "monetary reward"
+      "term": "exploration-exploitation"
+    },
+    {
+      "term": "monetary feedback"
+    },
+    {
+      "term": "probabilistic reasoning"
     }
   ],
-  "source_hash": "af5c795b33031f61237d8fba4fbe6eb083766af0aaddd4bb7c977674a4e4f30f"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007647",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007647",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007647",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007647.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
+  "modalities": [
+    "beh",
+    "eeg"
+  ],
+  "sizes": [
+    "3.6 GB (169 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".md",
+    ".mexw64",
+    ".png",
+    ".pptx",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "methods_description": "EEG data were collected while participants performed a two-door choice task with monetary feedback. Blocks alternated between learnable (one door: 60% win rate; other door: 10% win rate) and unlearnable (randomized outcomes matched to learnable block distributions) conditions. Each of 20 blocks contained 20 trials followed by a brief survey assessing perceived door quality, enjoyment, motivation, and performance.",
+  "source_hash": "e4f71006fa6fcef88d99586f9172fb41c9bbd7e0f110bc06f0e04536f6ea1275"
 }
