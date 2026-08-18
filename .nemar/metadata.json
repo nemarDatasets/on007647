@@ -1,8 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Different Doors",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 40 participants performing a two-door decision-making task with monetary feedback. Participants completed 20 blocks of 20 trials each, alternating between learnable blocks where one door had a 60% win probability and the other a 10% win probability, and unlearnable blocks where outcomes were randomized. Post-block surveys assessed subjective perceptions of door quality, enjoyment, motivation, and performance. The dataset enables investigation of neural correlates of learning, decision-making, and feedback processing under conditions of varying environmental predictability.",
+  "description": "This dataset contains EEG recordings from forty participants performing a gambling task involving repeated door selections and monetary feedback. Blocks were either learnable, where one door yielded rewards more frequently, or unlearnable, where outcomes were randomly drawn but matched in overall win/loss totals. After each block, participants completed a brief survey on perceived learning, enjoyment, motivation, and performance. The dataset supports investigation of decision-making and reward learning processes reflected in EEG signals.",
+  "methods_description": "Forty participants completed 20 blocks of 20 trials each, choosing between two doors and receiving feedback of monetary gain or loss. Ten blocks were learnable (one door had a 60% win rate, the other 10%) and ten were unlearnable (outcomes randomly drawn from learnable blocks but matched in totals). Each block was followed by a survey on door preference, enjoyment, motivation, and performance.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,40 +15,23 @@
       "term": "EEG"
     },
     {
-      "term": "decision-making"
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     },
     {
-      "term": "reinforcement learning"
+      "term": "reward learning"
+    },
+    {
+      "term": "gambling"
     },
     {
       "term": "feedback processing"
     },
     {
-      "term": "reward processing"
-    },
-    {
-      "term": "monetary reward"
-    },
-    {
-      "term": "cognitive control"
-    },
-    {
-      "term": "learning"
-    },
-    {
-      "term": "choice task"
-    },
-    {
-      "term": "probabilistic learning"
-    },
-    {
-      "term": "probabilistic reasoning"
-    },
-    {
-      "term": "two-alternative forced choice"
-    },
-    {
-      "term": "behavioral data"
+      "term": "Motivation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009042"
     }
   ],
   "related_identifiers": [
@@ -95,6 +79,5 @@
     ".vmrk",
     ".yml"
   ],
-  "methods_description": "EEG data were collected while participants performed a two-door choice task with monetary feedback. Blocks alternated between learnable (60% vs 10% win probabilities) and unlearnable (randomized outcomes) conditions. Each block contained 20 trials followed by a brief survey assessing subjective impressions of door quality, enjoyment, motivation, and performance.",
   "source_hash": "e4f71006fa6fcef88d99586f9172fb41c9bbd7e0f110bc06f0e04536f6ea1275"
 }
