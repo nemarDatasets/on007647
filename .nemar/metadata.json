@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Different Doors",
-  "description": "This dataset contains EEG recordings from forty participants performing a gambling task involving repeated door selections and monetary feedback. Blocks were either learnable, where one door yielded rewards more frequently, or unlearnable, where outcomes were randomly drawn but matched in overall win/loss totals. After each block, participants completed a brief survey on perceived learning, enjoyment, motivation, and performance. The dataset supports investigation of decision-making and reward learning processes reflected in EEG signals.",
-  "methods_description": "Forty participants completed 20 blocks of 20 trials each, choosing between two doors and receiving feedback of monetary gain or loss. Ten blocks were learnable (one door had a 60% win rate, the other 10%) and ten were unlearnable (outcomes randomly drawn from learnable blocks but matched in totals). Each block was followed by a survey on door preference, enjoyment, motivation, and performance.",
+  "description": "EEG dataset from 40 participants performing a two-door choice task with monetary gain or loss feedback. Blocks were either learnable, with one door yielding wins 60% of the time versus 10% for the other, or unlearnable, with outcomes drawn from learnable blocks and shuffled so that win and loss totals were matched. Each block was followed by a short survey on perceived door quality, enjoyment, motivation, and performance.",
+  "methods_description": "Participants completed 20 blocks of 20 trials (10 learnable, 10 unlearnable), choosing one of two doors and receiving monetary gain or loss feedback. After each block they answered a brief survey asking which door was better and whether they had fun, felt motivated, and did well.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,23 +15,21 @@
       "term": "EEG"
     },
     {
-      "term": "Decision Making",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
-    },
-    {
-      "term": "reward learning"
-    },
-    {
-      "term": "gambling"
+      "term": "reinforcement learning"
     },
     {
       "term": "feedback processing"
     },
     {
-      "term": "Motivation",
+      "term": "reward"
+    },
+    {
+      "term": "learnability"
+    },
+    {
+      "term": "Decision Making",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009042"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     }
   ],
   "related_identifiers": [
@@ -63,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.6 GB (169 files)"
+    "3.34 GB (169 files)"
   ],
   "formats": [
     ".eeg",
